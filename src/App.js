@@ -2,7 +2,6 @@ import './index.scss';
 import React from 'react';
 
 function App() {
-    // let count = 0;
     let [count, setCount] = React.useState(0)
     const onPlus = () => { 
         setCount(count + 1); 
